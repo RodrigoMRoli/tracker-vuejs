@@ -12,7 +12,7 @@ O padrão que eu entendi sobre como desenvolver um componente (não utilizando a
     2. Crie o script
     3. Importe o defineComponent do vue
     4. exporte o defineComponent na seguinte forma: 
-    ```javascript
+```
 {
     name: // nome do componente,
     components: // os componentes que estará utilizando dentro desse componente,
@@ -23,7 +23,7 @@ O padrão que eu entendi sobre como desenvolver um componente (não utilizando a
     // para o computed é uma boa pro template continuar coeso. ref: https://stackoverflow.com/questions/44350862/methods-vs-computed-in-vue
 
 }
-    ```
+```
 
 ###### slot
 
