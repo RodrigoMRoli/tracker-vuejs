@@ -13,16 +13,16 @@ O padrão que eu entendi sobre como desenvolver um componente (não utilizando a
     3. Importe o defineComponent do vue
     4. exporte o defineComponent na seguinte forma: 
     ```javascript
-        {
-            name: // nome do componente,
-            components: // os componentes que estará utilizando dentro desse componente,
-            methods: // os métodos que estará utilizando dentro desse componente,
-            props: // as propriedades que você estará esperando vir de fora quando esse componente for utilizado,
-            data () // return {variáveis}: as variáveis que pretende utilizar tanto no template quanto no script
-            computed: // quando você começa a perder mão to tamanho do script que esta dentro do template exportando a lógica
-            // para o computed é uma boa pro template continuar coeso. ref: https://stackoverflow.com/questions/44350862/methods-vs-computed-in-vue
+{
+    name: // nome do componente,
+    components: // os componentes que estará utilizando dentro desse componente,
+    methods: // os métodos que estará utilizando dentro desse componente,
+    props: // as propriedades que você estará esperando vir de fora quando esse componente for utilizado,
+    data () // return {variáveis}: as variáveis que pretende utilizar tanto no template quanto no script
+    computed: // quando você começa a perder mão to tamanho do script que esta dentro do template exportando a lógica
+    // para o computed é uma boa pro template continuar coeso. ref: https://stackoverflow.com/questions/44350862/methods-vs-computed-in-vue
 
-        }
+}
     ```
 
 ###### slot
