@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Custom Rodrigo */
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "removeComments": true,
     "experimentalDecorators": true
   },
